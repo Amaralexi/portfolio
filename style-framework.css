@@ -68,7 +68,9 @@
     color: beige;
 }
 
-
+.bg-brown{
+    background-color: rgb(250, 213, 164);
+}
 .marron {
     color: brown;
 }
