@@ -142,10 +142,16 @@ html {
     scroll-behavior: smooth;
 }
 
+header nav a{
+    width: fit-content;
+}
+
 /* ------------------------------
             LARGEURS
  ---------------------------------*/
-
+.w-px200{
+    width: 200px;
+}
 .w-100 {
     width: 100%;
 }
@@ -401,4 +407,14 @@ p {
 
 .transform {
     transform: translate(500px, 60px);
+}
+
+/*canard*/
+footer{
+    position: relative;
+}
+.canard{
+    position:absolute;
+    bottom: 0;
+    left: 0;
 }
